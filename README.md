@@ -1,14 +1,20 @@
 1. Foundry Setup
+
 Install Foundry: `winget install Microsoft.FoundryLocal`
+
 Install a Foundry model: `foundry model download phi-3.5-mini`
 
 2. Server Setup
-Create virtual environment: python -m venv venv
-Activate virtual environment: .\venv\Scripts\activate
-Install dependencies: pip install -r requirements.txt
+
+Create virtual environment: `python -m venv venv`
+
+Activate virtual environment: `.\venv\Scripts\activate`
+
+Install dependencies: pip install -r `requirements.txt`
 
 3. Starting the Server
-python foundry-server.py
+
+`python foundry-server.py`
 
 If everything is working fine, the logs should show that the Foundry service was started and that the server is running on port 3002
 Chat window should now be available to access the "read_graph" tool from the mcp server via natural language
